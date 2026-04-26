@@ -156,7 +156,7 @@ const filteredRoutes = routes.filter((route) => {
     <Layout>
       <div className="px-6 mt-6">
         {/* MAIN CARD */}
-        <div className="bg-white border rounded-xl p-6 border-l-4 border-purple-500">
+        <div className="bg-white border rounded-xl p-6 border-l-4 border-blue-600">
           {/* HEADER */}
           <div className="flex justify-between">
             <div>

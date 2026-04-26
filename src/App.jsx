@@ -16,6 +16,42 @@ function App() {
       <Route path="/processes" element={<Processes />} />
       <Route path="/routes" element={<Routess />} />
       <Route path="/products" element={<Products />} />
+<Route
+  path="/dashboard"
+  element={
+    <div className="flex items-center justify-center h-[60vh] text-center">
+      <div>
+        <h1 className="text-xl font-semibold">Dashboard</h1>
+        <p className="text-gray-500 mt-2">This page is not available</p>
+      </div>
+    </div>
+  }
+/>
+
+<Route
+  path="/schedule"
+  element={
+    <div className="flex items-center justify-center h-[60vh] text-center">
+      <div>
+        <h1 className="text-xl font-semibold">Schedule</h1>
+        <p className="text-gray-500 mt-2">This page is not available</p>
+      </div>
+    </div>
+  }
+/>
+
+<Route
+  path="/orders"
+  element={
+    <div className="flex items-center justify-center h-[60vh] text-center">
+      <div>
+        <h1 className="text-xl font-semibold">Orders</h1>
+        <p className="text-gray-500 mt-2">This page is not available</p>
+      </div>
+    </div>
+  }
+/>
+
     </Routes>
   );
 }

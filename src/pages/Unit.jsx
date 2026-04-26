@@ -46,18 +46,7 @@ const Units = () => {
   };
 
   
-
-  // Add unit
-  // const handleAddUnit = () => {
-  //   if (!formData.name || !formData.symbol) return;
-
-  //   setUnits([...units, { id: Date.now(), ...formData }]);
-
-  //   setFormData({ name: "", symbol: "", description: "" });
-  //   setShowModal(false);
-  // };
-
-  const handleAddUnit = async () => {
+const handleAddUnit = async () => {
     try {
       const newUnit = {
         name: formData.name,

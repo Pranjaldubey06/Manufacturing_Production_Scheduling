@@ -179,7 +179,7 @@ const Shifts = () => {
   return (
     <Layout>
       <div className="px-8 mt-6">
-        <div className="bg-white rounded-xl border shadow-sm p-6">
+        <div className="bg-white rounded-xl border shadow-sm p-6 border-l-4 border-blue-600">
           {/* HEADER */}
           <div className="flex justify-between">
             <div>
